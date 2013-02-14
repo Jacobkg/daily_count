@@ -1,4 +1,7 @@
 DailyCount::Application.routes.draw do
+root :to => 'counts#index'
+
+  resources :counts
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

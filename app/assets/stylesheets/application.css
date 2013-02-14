@@ -11,3 +11,12 @@
  *= require_self
  *= require_tree .
  */
+
+.centered {
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+.record-button {
+  text-align: center;
+}
