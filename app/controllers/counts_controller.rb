@@ -5,7 +5,7 @@ class CountsController < ApplicationController
 
   def create
     count = Count.new
-    count.record_date = Date.today
+    count.record_date = Date.current
     count.save!
 
     if Rails.env.production?
