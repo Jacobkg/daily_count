@@ -7,7 +7,7 @@
     <% Count.today.each do |count| %>
       <tr>
         <td>Record</td>
-        <td><%= count.created_at %></td>
+        <td><%= count.created_at.strftime("%r") %></td>
       </tr>
     <% end %>
   </table>
